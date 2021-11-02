@@ -8,5 +8,5 @@ def populate(n,i,j):
         L.append(random.randint(i,j))
     return L
 
-
+def new_func
 
