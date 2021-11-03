@@ -224,14 +224,16 @@ def closest_pair_genius(L):
             return a,b,delta
     return a,b,abs(b-a)
 
-n=10000000
+n=100000
 L=populate(n)
-
 t1=time.time()
-print(t1)
 print(closest_pair_genius(L))
 t2=time.time()
+
 print(t2-t1)
 
-
+t3=time.time()
+print(closest_pair_obvious(L))
+t4=time.time()
+print(t4-t3)
 
