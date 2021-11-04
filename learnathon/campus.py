@@ -24,16 +24,17 @@ def transfer(x,X,Y,p):
 
 
 def main_experiment():
-
-    Hostel=list(range(1000))
-    Mess=[]
-    Library=[]
+    n=10000
+    Hostel=list(range(n))
+    Mess=list(range(n))
+    Library=list(range(n))
+    n=3*n
     CHostel=Hostel.copy()
     CMess=Mess.copy()
     CLibrary=Library.copy()
-    for i in range(10):
+    for i in range(1000):
         for x in CHostel:
-            r=random.random():
+            r=random.random()
             if r<.4:
                 simple_transfer(x,Hostel,Mess)
             if r>=.4 and r<.5:
@@ -53,4 +54,5 @@ def main_experiment():
         CHostel=Hostel.copy()
         CMess=Mess.copy()
         CLibrary=Library.copy()
-        print(len(CHostel),len(CMess),len(CLibrary))
+        print(len(Hostel)/n,len(Mess)/n,len(Library)/n)
+main_experiment()
