@@ -36,6 +36,21 @@ def find_max(L):
                 max_pair=(i,j)
     return max_total,max_pair
 
+def first_best_block(L):
+    """This considers L and outputs the block with the
+    maximum sum, with an added constraint that i=0"""
+    #in other words, find the head-block that sums
+    #to max.
+    #Solve this variant, without worrying about the
+    #previous question.
+
+
+
+
+
+
+
+
 L=populate_list(10000)
 print(L)
 print("**********")
