@@ -1,5 +1,4 @@
-"""We will soon start coding  - Sudarshan
-
+"""
 We are given a list of elements, with positive and negative values.
 Let us first generate such a list
 After generating such a list, we find out if there is a block of elements
