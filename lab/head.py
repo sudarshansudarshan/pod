@@ -44,11 +44,6 @@ def sum_list(L):
 
 def increament_head_new(L, H, x):
 
-    if( len(L) == 0):
-        return []
-    
-    if(len(L) == 1):
-        return [L[0]]
 
     s = sum_list(H)
 
@@ -63,21 +58,20 @@ def increament_head_new(L, H, x):
     
     if(x>0 and s>0):
         H = [x] + H
-
-    return H
-
+    L.insert(0,x)
+    return L,H
 
 Z = [-10, 1, 2, -100]
 Y = Z.copy()
 Y.reverse()
 
 
-L = []
-H = []
+L = [Y[0]]
+H = [Y[0]]
 
-for i in range(len(Y)):
+for i in range(1,len(Y)):
 
-    H = increament_head_new(L, H, Y[i])
+    L,H = increament_head_new(L, H, Y[i])
     L.insert(0, Y[i])
 
 print(H)
