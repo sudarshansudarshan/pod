@@ -7,7 +7,10 @@ def spit():
     letter non-uniformly at random. Note that everytime you call this function,
     it will just give you one letter (capital)."""
 
-
+def create_file(n):
+    """This function will create a file by name output.txt which will contain
+    letters picked respecting the given distribution. The file will have n
+    number of entries"""
     
 
 
