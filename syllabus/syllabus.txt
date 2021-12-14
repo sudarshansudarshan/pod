@@ -1,0 +1,53 @@
+AA
+Obvious Sort
+Quick Sort
+Obvious Search
+Binary Search
+kth element
+nlogn sort cannot be bettered
+
+
+BB
+Hashing
+Find Distinct Element
+Closest Pair problem
+
+CC
+Vigenere Cipher
+
+DD
+PageRank
+
+EE
+
+POOL
+****
+From Excel to Least Squares
+Gradient Descent and everything about it
+Huffman's Coding
+Krushkal's Algorithm
+BFS
+DFS
+RSA, Primality Testing, Zero knowledge proofs, Mao's Millionaire Problem
+Stable Matching and Organ Donation Problem
+Caching Farthest First and Randomized Caching
+Fast Fourier Transforms
+Discrete Cosine Transforms and Image Compression
+Interval Scheduling and Weighted Interval Scheduling
+Halting Problem and its applications
+The perceptron learning algorithm
+Segmented Least Squares
+Load Balancing Problem (Chernoff Bounds)
+Local Search
+Online Hiring
+German Tank
+Random permutation and Random bit generation
+Binary Search Trees
+Maximum Contiguous Subarray
+An Excursion in Linear Programming
+
+
+
+
+
+
